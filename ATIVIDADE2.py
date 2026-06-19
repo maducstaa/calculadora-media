@@ -4,4 +4,9 @@ nota3 = float(input("Nota 3: "))
 
 media = (nota1 + nota2 + nota3) / 3
 
+if media >= 7:
+    print("Aprovado!")
+else:
+    print("Reprovado!")
+    
 print(media)
